@@ -1,0 +1,3 @@
+# Off-by-One Error in Java Array Traversal
+
+This repository demonstrates a common off-by-one error in Java when iterating over arrays. The error occurs in the `for` loop condition, where the loop continues one iteration beyond the valid array indices, causing an `ArrayIndexOutOfBoundsException`. The solution demonstrates the correct way to iterate over the array using the `<` operator instead of `<=`.
